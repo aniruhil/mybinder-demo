@@ -1,21 +1,22 @@
 Type: Compendium
-Package: Compendium title
-Title: What the Package Does (One Line, Title Case)
+Package: aniR2021
+Title: My R Tutorials
 Version: 0.0.1
 Authors@R: 
-    person(given = "Karthik",
-           family = "Ram",
+    person(given = "Ani",
+           family = "Ruhil",
            role = c("aut", "cre"),
-           email = "karthik.ram@gmail.com",
-           comment = c(ORCID = "0000-0002-0233-1757"))
-Description: Compendium description
+           email = "ani.ruhil@gmail.com",
+           # comment = c(ORCID = "0z000-0002-0233-1757"))
+Description: A few scripts for R tutorials
 License: MIT + file LICENSE
 Depends: 
-    dataRetrieval,
-    dplyr,
-    ggplot2,
-    lubridate,
-    tidyr,
+    tidyverse,
+    data.table,
+    tidycensus,
+    gghighlight,
+    ggforce,
+    highcharter,
     viridis
 Encoding: UTF-8
 LazyData: true
